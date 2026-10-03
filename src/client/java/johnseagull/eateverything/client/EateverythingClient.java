@@ -1,7 +1,7 @@
-package net.creeperdev.eateverything.client;
+package johnseagull.eateverything.client;
 
-import net.creeperdev.eateverything.Figs;
-import net.creeperdev.figManagerClient.FigManagerClient;
+import johnseagull.eateverything.Figs;
+import johnseagull.figManagerClient.FigManagerClient;
 import net.fabricmc.api.ClientModInitializer;
 
 public class EateverythingClient implements ClientModInitializer {

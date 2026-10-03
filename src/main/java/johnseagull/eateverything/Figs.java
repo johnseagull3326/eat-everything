@@ -1,10 +1,9 @@
-package net.creeperdev.eateverything;
+package johnseagull.eateverything;
 
 
-import net.creeperdev.figManager.Fig.*;
+import johnseagull.figManager.Fig.*;
+import johnseagull.figManagerMC.DividerFig;
 import net.minecraft.ChatFormatting;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 
 public class Figs {

@@ -1,9 +1,10 @@
-package net.creeperdev.eateverything;
+package johnseagull.eateverything;
 
-import net.creeperdev.figManager.FigManager;
+import johnseagull.figManager.FigManager;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerEntityEvents;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
+import johnseagull.figManagerMC.FigManagerMC;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvents;
@@ -29,7 +30,7 @@ public class Eateverything implements ModInitializer {
     @Override
     public void onInitialize()  {
         LOGGER.info("Initializing...");
-        FigManager g = new FigManager();
+        FigManager g = new FigManagerMC();
         g.init(figManagerName, projectVersion, Figs.instance);
 
         ServerTickEvents.END_SERVER_TICK.register(server -> {
