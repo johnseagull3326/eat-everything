@@ -6,11 +6,13 @@ Currently during early developement, so expect some things to not work, or compl
 
 Mod requirements:
 - verions supported:
+  - 26.3
+  - 26 2
   - 26.1
   - 26.1.1
   - 26.1.2
 - dependancies:
-  - Fabric API 0.144.3+26.1 or newer
+  - Fabric API for that particular MC version
  
 
 
