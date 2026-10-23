@@ -2,7 +2,6 @@
 
 This mod lets you eat basically everything in Minecraft. Items in player's inventories will be made edible through adding food Data Components to items that do not natively have them.
 
-Currently during early developement, so expect some things to not work, or completely change for now.
 
 Mod requirements:
 - verions supported:
