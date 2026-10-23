@@ -14,5 +14,4 @@ Mod requirements:
   - Fabric API for that particular MC version
  
 
-
-Coming soon to Modrinth!
+Now on [Modrinth](https://modrinth.com/project/dH55WOKq)!
